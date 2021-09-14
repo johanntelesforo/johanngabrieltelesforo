@@ -1,0 +1,143 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+body {
+    margin: 0;
+    background: #2193b0;
+    overflow:auto;
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+
+}
+
+.navbar{
+    width: 10px;
+    color:#d8d8d8;
+    border-bottom: 0.5px, solid, white;
+    width: 100%;
+    line-height: 80px;
+    height: 80px;
+    font-size: 18px;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: Verdana;
+    background: #2c3e50;
+}
+
+.navbar a.nav-logo{
+    float:left;
+    height: inherit;
+    line-height: inherit;
+    padding: 0px;
+    font-size: 37px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family:'Trebuchet MS';
+    color:white;
+    font-weight: bolder;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:whitesmoke;
+    margin-left: 12px;
+    margin-top: inherit;
+}
+.navbar ul{
+    float: right;
+    list-style: none;
+    height: inherit;
+    line-height: inherit;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+
+.navbar ul li a{
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    padding: 0 30px;
+}
+
+.navbar ul li a:hover{
+    background-color: cadetblue;
+}
+
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    background: cadetblue;
+    overflow: auto;
+    
+}
+
+.gallery{
+    margin: 5px;
+    border: 2px solid #d8d8d8;
+    float: left;
+    width: 390px;
+    
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding:  15px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+figcaption{
+    margin-top: 15px;
+    text-align: center;
+    color:white;
+    font-size: 35px;
+}
+
+h5{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    background-color: #2193b0;
+    border-radius: 8px;
+    max-width: 1280px;
+    max-height: 150%;
+    margin: 30px auto;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin: auto;
+    max-width: 1000px;
+    background: #2193b0;
+}
+
+.title{
+    margin-top: 60px;
+}

@@ -1,0 +1,154 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: linear-gradient(to left,lightcyan, mediumaquamarine);
+    color:#d8d8d8;
+    border-bottom: 0.5px, solid, white;
+    width: 100%;
+    line-height: 80px;
+    height: 80px;
+    font-size: 18px;
+    padding: 0 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Trebuchet MS';
+}
+
+.navbar a{
+    text-decoration: none;
+    color:black;
+    margin-left: 12px;
+    margin-top: inherit;
+}
+
+
+.navbar a.nav-logo{
+    float:left;
+    height: inherit;
+    line-height: inherit;
+    padding: 0px;
+    font-size: 37px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family:'Trebuchet MS';
+    color:white;
+    font-weight: bolder;
+}
+
+.navbar a.nav-logo:hover{
+    transition: 1.2s;
+    cursor: pointer;
+    filter: invert(1)
+    
+}
+
+
+.navbar ul{
+    float: right;
+    list-style: none;
+    height: inherit;
+    line-height: inherit;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+
+.navbar ul li a{
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    padding: 0 30px;
+}
+
+.navbar ul li a:hover{
+    background-color: cadetblue;
+}
+
+body{
+    background-color:mediumaquamarine;
+}
+
+
+.content{
+    font-family: 'Trebuchet MS';
+    color: white;
+    margin-top: 22%;
+    margin-left: 185px;
+}
+
+
+h1{
+    font-size: 65px;
+    font-weight: bold;
+    color:black;
+}
+
+p{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans';
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 45px;
+    font-family: 'Trebuchet MS';
+    margin-top: 20px;
+}
+
+h3:hover{
+    transition: 1s;
+    cursor: pointer;
+    filter: invert(1)
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+img{
+    margin-top: 22%;
+    margin-left: 170px;
+    margin-right: 100px;
+    width: 500px;
+    height: 500px;
+}
+
+.review{
+    margin-top : 20px;
+    background-color: darkseagreen;
+    cursor: pointer;
+    color: black;
+    padding: 12px 20px;
+    float: left;
+    border: 0;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+.review a{
+    color: aliceblue;
+}
+
+.review:hover{
+    transition: 0.6s ease;
+    filter: invert(2);
+}
+
+
