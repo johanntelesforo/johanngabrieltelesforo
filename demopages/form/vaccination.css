@@ -11,13 +11,15 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: -webkit-linear-gradient(bottom,#ffd89b, #19547b);
+    background: linear-gradient(to left,white, #8c9dad);
+    background-repeat: no-repeat;
+    background-size: contain;
     
 }
 
 .container {
     width: 300px;
-    background: blanchedalmond;
+    background: #606e7a;
     border-radius: 5px;
     text-align: center;
     padding: 50px 60px 835px 35px;
@@ -29,6 +31,7 @@ body {
     font-size: 25px;
     font-weight: 500;
     margin: 0 0 30px 15px;
+    color: white;
 
 }
 
@@ -54,6 +57,7 @@ body {
     font-size: 20px;
     font-weight: 400;
     margin-left: 35px;
+    color: white;
 
 }
 
@@ -70,6 +74,7 @@ body {
     position: absolute;
     top: -30px;
     font-weight: 500;
+    color: white;
 }
 
 .form-outer form .page .field input{
@@ -85,7 +90,7 @@ body {
     height: calc(100% + 5px);
     margin-top: -20px;
     border: none;
-    background: coral;
+    background: #246dc0;
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
@@ -93,7 +98,7 @@ body {
 }
 
 .form-outer form .page .field button:hover{
-    background-color: #246dc0;
+    filter: invert();
 }
 
 select{
