@@ -5,7 +5,7 @@
 }
 
 .navbar {
-    background: linear-gradient(to left,lightcyan, #8c9dad);
+    background: linear-gradient(to left,white, #8c9dad);
     color:#d8d8d8;
     border-bottom: 0.5px, solid, white;
     width: 100%;
@@ -132,9 +132,9 @@ img{
 
 .review{
     margin-top : 20px;
-    background-color: darkseagreen;
+    background-color: rgb(51, 86, 87);
     cursor: pointer;
-    color: black;
+    color: white;
     padding: 12px 20px;
     float: left;
     border: 0;
