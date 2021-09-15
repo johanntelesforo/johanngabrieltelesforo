@@ -7,7 +7,7 @@
 
 body {
     margin: 0;
-    background: #2193b0;
+    background: linear-gradient(to right, #2c3e50, cadetblue);
     overflow:auto;
 }
 
@@ -31,7 +31,7 @@ ul{
     top: 0;
     left: 0;
     font-family: Verdana;
-    background: #2c3e50;
+    background: linear-gradient(to left, #2c3e50, cadetblue);
 }
 
 .navbar a.nav-logo{
@@ -84,7 +84,6 @@ ul{
 .container{
     max-width: 1000px;
     margin: auto;
-    background: cadetblue;
     overflow: auto;
     
 }
@@ -119,9 +118,8 @@ figcaption{
 
 h5{
     text-align: center;
-    color: black;
+    color: white;
     font-size: 25px;
-    background-color: #2193b0;
     border-radius: 8px;
     max-width: 1280px;
     max-height: 150%;
@@ -135,7 +133,6 @@ h1{
     margin-bottom: 25px;
     margin: auto;
     max-width: 1000px;
-    background: #2193b0;
 }
 
 .title{
