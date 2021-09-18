@@ -2,6 +2,7 @@
     padding: 0 auto;
     margin: 0 auto;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -16,7 +17,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    font-family: 'Trebuchet MS';
+    font-family: 'Verdana';
 }
 
 .navbar a{
@@ -35,7 +36,7 @@
     font-size: 45px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-family:'Trebuchet MS';
+    font-family:'Oswald';
     color:white;
     font-weight: bolder;
 }
@@ -86,7 +87,7 @@ body{
 .content{
     font-family: 'Trebuchet MS';
     color: white;
-    margin-top: 22%;
+    margin-top: 18%;
     margin-left: 185px;
 }
 
@@ -136,6 +137,7 @@ img{
     float: left;
     border: 0;
     border-radius: 25px;
+    margin-right: 10px;
     font-size: 20px;
     font-family: Oswald;
 }
@@ -150,20 +152,20 @@ img{
 }
 
 
-.container{
-    margin-top: 8%;
+#container{
+    margin-top: 5%;
     padding: 80px;
     background: linear-gradient(to left,#fc9dad, #ffc3a0);
 }
 
-.container .showcase{
+#container .showcase{
     text-align: center;
 
 }
 
 .reel{
-    padding: 30px;
-    margin-top: 20px;
+    padding: 20px;
+    margin-top: 10px;
     font-family: Oswald;
     color:black;
     font-size: 50px;
@@ -182,8 +184,8 @@ span{
 
 
 .intro{
-    padding: 30px;
-    margin-top: 60px;
+    padding: 25px;
+    margin-top: 45px;
     font-family: Oswald;
     color:black;
     font-size: 50px;
