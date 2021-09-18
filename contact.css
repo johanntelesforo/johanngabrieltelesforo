@@ -1,0 +1,101 @@
+h2{
+    
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Oswald;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 2px;
+}
+.media{
+    position: absolute;
+    top:25%;
+    left: 50%;
+    transform: translate(-53%, -50%);
+
+}
+
+li{
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 25px 25px;
+    color: #fff;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    transition: .6s ease-in-out;
+}
+
+li:hover{
+    color: #292929;
+    border: 1px solid #292929;
+    
+}
+
+body{
+    background: url(../johanngabrieltelesforo/img/Comp\ 1.gif);
+    background-size: cover;
+}
+
+span{
+    color: black;
+    background-color: #7a4988;
+    border-radius: 10px;
+    border-width: 15px;
+    border-style: none;
+    border-top: 20px;
+}
+
+.contact-box{
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 0 20px 0 #999;
+    margin-top: 9%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position:absolute
+}
+
+form{
+    margin: 35px;
+}
+
+.input-field {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+
+.btn{
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #7a4988;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.msg {
+    margin-top: 8%;
+
+}
+.sent{
+    color: white;
+}
+
